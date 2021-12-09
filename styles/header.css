@@ -1,0 +1,67 @@
+.header{
+    width: 100%; 
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url(../images/diversity.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+  }
+  .header_container{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+  }
+  .header_nav_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 110rem;
+    width: 100%;
+  }
+  .header_title{
+    flex: 0 1;
+    padding: 4rem 4.5rem;
+  }
+
+.heading {
+    line-height: 1;
+    font-weight: 300;
+    margin-top:5rem;
+    text-align: center;
+  }
+  .heading_main_title{
+    color: white;
+    font-size: 5rem;
+  }
+  .main_subtitle{
+      font-size: 2.5rem;
+      color:white;
+      text-align: center;
+      line-height: 3;
+  }
+  .heading_content_title{
+    color: black;
+    font-size: 4rem;
+  }
+  .content_text{
+    color: black;
+    font-size: 3rem;
+    z-index: 3;
+  }
+
+  .content_description{
+      font-size: 2.5rem;
+  }
+
+  .countable_logo{
+      max-width: 100%;
+      width: 15%;
+
+      
+  }

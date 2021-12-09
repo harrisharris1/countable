@@ -1,0 +1,67 @@
+
+/* you can find the classes in order 
+as they appear in the html file */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    
+    
+}
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+}
+.hamburger {
+    display: none;
+}
+.nav-link ul li a{
+    cursor: pointer;
+  }
+  .nav-link ul li .underline {
+    margin: 0.5rem auto 0;
+    display: block;
+    max-width: 0;
+    height: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: #E7D045;
+    transition: max-width 0.2s ease-in;
+  }
+  .nav-link ul li:hover .underline {
+    max-width: 40%;
+  }
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:-5em;
+}
+
+.nav-item {
+    margin-left: 5rem;
+    list-style: none;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: white;
+}
+  .magnifying_glass_icon{
+    max-width: 100%;
+ }
+  
+  
+  
