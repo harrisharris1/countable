@@ -21,6 +21,9 @@
   .container {
     padding: 2px 16px;
   }
+  .container p {
+    margin-top: 1.5rem;
+  }
   .gallery_box {
  
     grid-column: 1/3;
