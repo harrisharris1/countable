@@ -14,6 +14,11 @@ as they appear in the html file */
     text-decoration: none;
     text-align: center;
 }
+.navbar h1{
+  color:white;
+  text-transform: capitalize;
+  font-size: 2em;
+}
 .hamburger {
     display: none;
 }
